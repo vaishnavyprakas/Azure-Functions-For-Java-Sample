@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yoshio3</groupId>
-    <artifactId>com.yoshio3</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>spring-azure-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -18,6 +18,8 @@
         <ResourceGroupName>demowebapprg</ResourceGroupName>
         <functionAppName>demofunlinapp</functionAppName>
         <functionAppRegion>eastus</functionAppRegion>
+        <azure.functions.maven.plugin.version>1.14.2</azure.functions.maven.plugin.version>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
@@ -31,7 +33,13 @@
             <artifactId>Bot-Luis-Translator-Util</artifactId>
             <version>1.2</version>            
         </dependency>
-
+    <repositories>
+        <repository>
+            <id>vaishnavyprakas</id>
+            <url>https://github.com/vaishnavyprakas/Azure-Functions-For-Java-Sample</url>
+        </repository>
+    </repositories>
+  
         <!-- Test -->
         <dependency>
             <groupId>junit</groupId>
