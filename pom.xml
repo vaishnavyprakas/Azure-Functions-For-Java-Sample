@@ -34,11 +34,7 @@
             <artifactId>azure-functions-java-core</artifactId>
             <version>1.0.0-beta-2</version>
         </dependency>
-        <dependency>
-            <groupId>com.yoshio3</groupId>
-            <artifactId>Bot-Luis-Translator-Util</artifactId>
-            <version>1.2</version>            
-        </dependency>
+
 
   
         <!-- Test -->
