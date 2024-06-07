@@ -21,6 +21,12 @@
         <azure.functions.maven.plugin.version>1.14.2</azure.functions.maven.plugin.version>
         <java.version>11</java.version>
     </properties>
+    <repositories>
+        <repository>
+            <id>vaishnavyprakas</id>
+            <url>https://github.com/vaishnavyprakas</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -33,12 +39,7 @@
             <artifactId>Bot-Luis-Translator-Util</artifactId>
             <version>1.2</version>            
         </dependency>
-    <repositories>
-        <repository>
-            <id>vaishnavyprakas</id>
-            <url>https://github.com/vaishnavyprakas/Azure-Functions-For-Java-Sample</url>
-        </repository>
-    </repositories>
+
   
         <!-- Test -->
         <dependency>
