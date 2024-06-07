@@ -15,9 +15,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <ResourceGroupName>Java-Function-Sample</ResourceGroupName>
-        <functionAppName>java-function-for-cognitive-services</functionAppName>
-        <functionAppRegion>westus</functionAppRegion>
+        <ResourceGroupName>demowebapprg</ResourceGroupName>
+        <functionAppName>demofunlinapp</functionAppName>
+        <functionAppRegion>eastus</functionAppRegion>
     </properties>
 
     <dependencies>
